@@ -12,7 +12,7 @@
   --primary-color: #7854f7;
   --dark-color: #181131;
   --accent-color: #d57d00;
-  --secondary-color: #777777;
+  --secondary-color: #939393;
 }
 
 html {
@@ -43,7 +43,7 @@ a {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 .btn {

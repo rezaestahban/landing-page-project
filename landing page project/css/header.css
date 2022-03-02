@@ -3,8 +3,9 @@
 }
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  /* margin: 0 16rem; */
 }
 
 .navbar__logo img {

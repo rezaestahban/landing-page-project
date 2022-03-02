@@ -1,0 +1,30 @@
+@media (min-width: 1900px) {
+  .navbar {
+    margin: 0 32rem;
+  }
+  .hero__wrapper {
+    margin: 0 32rem;
+  }
+}
+
+@media (min-width: 2220px) {
+  .navbar {
+    margin: 0 47rem;
+  }
+  .hero__wrapper {
+    margin: 0 47rem;
+  }
+  .right--item__demo img {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 1389px) {
+  .hero__left--item h1 {
+    font-size: 6rem;
+  }
+
+  .navbar {
+    margin: 0 8rem;
+  }
+}
