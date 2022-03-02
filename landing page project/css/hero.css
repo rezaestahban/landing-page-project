@@ -1,11 +1,12 @@
 #hero {
-  min-height: 88vh;
+  min-height: 65vh;
 }
 
 .hero__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  /* margin: 0 16rem; */
 }
 
 .hero__left--item {
