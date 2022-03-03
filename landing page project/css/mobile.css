@@ -1,12 +1,37 @@
 #mobile {
-  min-height: 68vh;
+  min-height: 550px;
+  /* min-height: 68vh; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.mobile__left__wrapper {
+  flex: 2;
+  background-color: #f0f0f0;
+  height: 400px;
+  position: relative;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .mobile__left {
-  margin-right: 10rem;
+  /* margin-right: 10rem; */
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.mobile__right {
+  flex: 2;
+  padding: 0 6rem;
+}
+.mobile__right--background {
+  flex: 0.5;
+  background-color: #f0f0f0;
+  height: 400px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .mobile__right--features {
@@ -15,18 +40,20 @@
 
 .mobile__right--features h4 {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--secondary-color);
+  margin-bottom: 2rem;
 }
 .mobile__right--features h2 {
   font-size: 4rem;
   font-weight: 800;
   color: var(--dark-color);
+  margin-bottom: 2rem;
 }
 
 .mobile__right--features p {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--secondary-color);
 }
 
@@ -41,15 +68,57 @@
   font-size: 2.2rem;
 }
 
-.mobile__icon--pen {
+.icon__pen {
   background-color: #13b237;
   padding: 1.5rem;
   border-radius: 8px;
-  margin-right: 12rem;
+  margin-right: 24rem;
+  margin-bottom: 2rem;
 }
 
-.mobile__icon--qr {
+.icon__qr {
   background-color: #44d4d7;
   padding: 1.5rem;
   border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.mobile__icon--pen h2 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.mobile__icon--qr h2 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.mobile__icon--qr p {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.mobile__icon--pen p {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.mobile__icon--qr h2:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.mobile__icon--pen h2:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }

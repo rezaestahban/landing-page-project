@@ -1,10 +1,10 @@
 #hero {
-  min-height: 65vh;
+  min-height: 40vh;
 }
 
 .hero__wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* margin: 0 16rem; */
 }
@@ -17,7 +17,7 @@
 }
 
 .hero__left--item h1 {
-  font-size: 7.2rem;
+  font-size: 5.2rem;
   font-weight: 500;
   color: var(--dark-color);
   margin-bottom: 2.5rem;
@@ -26,6 +26,12 @@
 .hero__left--item p {
   color: var(--dark-color);
   font-size: 1.6rem;
+}
+
+.hero__left--item div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .left--item__demo {
@@ -47,4 +53,42 @@
 
 .left--item__demo p {
   margin-left: 1rem;
+}
+
+/* .hero__circle--button {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgb(54, 224, 168);
+  position: relative;
+  margin-left: 4rem;
+} */
+
+.hero__circle--button i:after {
+  content: '';
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  background-color: brown;
+  border-radius: 50%;
+  top: -2rem;
+  /* bottom: 1rem; */
+  margin: auto;
+  left: 1rem;
+}
+
+.hero__circle--button i {
+  color: rgb(3, 3, 97);
+  font-size: 4rem;
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: rgb(19, 185, 130);
+  position: relative;
+  margin-left: 4rem;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-80deg);
 }

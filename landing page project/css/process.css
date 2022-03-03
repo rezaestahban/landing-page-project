@@ -1,16 +1,22 @@
 #ourprocess {
-  min-height: 35vh;
+  min-height: 25vh;
 }
 
 .process__wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-bottom: 8rem;
+}
+
+.process__wrapper__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .process__item {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .process__item h2 {
@@ -43,7 +49,8 @@
     #f7f7f8 90.02%
   );
   border-radius: 0.8rem;
-  width: 24rem;
+  width: 20rem;
+  height: 24rem;
 }
 .process__item--box:hover {
   background: linear-gradient(
@@ -52,14 +59,14 @@
     #e8e8ff 54.8%,
     #ececff 97.82%
   );
-  /* box-shadow: 0px 0px 8px 0px rgba(142, 142, 151, 0.438); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   transform: rotateY(0) scale(1.02);
 }
 
 .process__item--box i {
   font-size: 2.2rem;
   padding: 1.5rem;
-  width: 2.4rem;
+  /* width: 2.4rem; */
   margin-bottom: 1.5rem;
   color: white;
   align-items: center;
