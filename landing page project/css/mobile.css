@@ -1,12 +1,36 @@
 #mobile {
   min-height: 68vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
+.mobile__left__wrapper {
+  flex: 2;
+  background-color: #f0f0f0;
+  height: 400px;
+  position: relative;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 .mobile__left {
-  margin-right: 10rem;
+  /* margin-right: 10rem; */
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.mobile__right {
+  flex: 2;
+  padding: 0 6rem;
+}
+.mobile__right--background {
+  flex: 0.5;
+  background-color: #f0f0f0;
+  height: 400px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .mobile__right--features {

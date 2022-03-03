@@ -4,9 +4,15 @@
 
 .process__wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-bottom: 8rem;
+}
+
+.process__wrapper__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .process__item {
@@ -59,7 +65,7 @@
 .process__item--box i {
   font-size: 2.2rem;
   padding: 1.5rem;
-  width: 2.4rem;
+  /* width: 2.4rem; */
   margin-bottom: 1.5rem;
   color: white;
   align-items: center;
