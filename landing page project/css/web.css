@@ -1,0 +1,128 @@
+#web {
+  margin-top: 12rem;
+  margin-bottom: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.web__left--background {
+  flex: 0.2;
+  background-color: #e1d7d2;
+  height: 320px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.web__left--features {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 320px;
+  flex: 2;
+  margin-left: 10rem;
+}
+
+.web__left--features h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.web__left--features .web_h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+}
+
+.web__left--features p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin-bottom: 3rem;
+}
+
+.web__left--icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.icon__paint {
+  background-color: #4756df;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-right: 24rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 2.2rem;
+}
+
+.icon__star {
+  background-color: #fa6444;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 2.2rem;
+}
+
+.web__left--icon h2 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.web__right--icon h2 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.web__left--icon p {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.web__right--icon p {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.web__left--icon h2:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.web__right--icon h2:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.web__right--laptop {
+  flex: 1.5;
+  background-color: #e1d7d2;
+  height: 320px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.web__right--laptop img {
+  position: absolute;
+  top: 20px;
+  left: -66px;
+}
