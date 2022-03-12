@@ -1,0 +1,183 @@
+#hero {
+  min-height: 70vh;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16rem;
+  margin-bottom: 12rem;
+}
+
+.hero__left--items {
+  color: white;
+  z-index: 50;
+}
+
+.hero__left--items h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.4rem;
+  line-height: 6.8rem;
+  margin-bottom: 3.4rem;
+}
+.hero__left--items p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 4.2rem;
+  color: #adadb0;
+  margin-bottom: 3.4rem;
+}
+
+.hero__left--items span {
+  color: var(--secondary-color);
+}
+
+.left--item__btn button {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.left--item__btn button:hover {
+  border-color: var(--secondary-color);
+}
+
+.hero__btn1 {
+  margin-right: 2rem;
+}
+
+.hero__btn1 i {
+  margin-right: 0.8rem;
+}
+
+.hero__btn2 i {
+  margin-right: 0.8rem;
+}
+
+.hero__right--items {
+  position: relative;
+}
+
+.right--item__img {
+  animation: moveingimg 3s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.right--item__img1 {
+  animation: moveingimg1 10s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  z-index: 40;
+}
+
+.right--item__img2 {
+  animation: moveingimg2 20s linear alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.blobshape {
+  margin-right: 12rem;
+  filter: drop-shadow(10px -20px 30px #b244dd);
+}
+.axiesimg {
+  position: absolute;
+  left: 12.8rem;
+  top: -3.5rem;
+}
+
+@keyframes moveingimg {
+  0% {
+    transform: translateY(-0.8rem);
+  }
+  100% {
+    transform: translateY(0.8rem);
+  }
+}
+
+@keyframes moveingimg1 {
+  0% {
+    transform: translateY(3rem);
+  }
+  100% {
+    transform: translateY(-3rem);
+  }
+}
+
+@keyframes moveingimg2 {
+  0% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(10rem);
+  }
+}
+
+.space {
+  position: absolute;
+  left: 1rem;
+  bottom: 8.8rem;
+  z-index: 3;
+}
+
+.plus1 {
+  position: absolute;
+  left: -39rem;
+  top: -12rem;
+}
+
+.plus2 {
+  position: absolute;
+  left: 0rem;
+  top: -21rem;
+  transform: rotate(150.68deg);
+}
+
+.plus3 {
+  position: absolute;
+  left: -15rem;
+  top: -18rem;
+  transform: rotate(23deg);
+}
+
+.star1 {
+  position: absolute;
+  left: 0rem;
+  top: 13rem;
+  transform: rotate(150.68deg);
+}
+
+.star2 {
+  position: absolute;
+  left: 0rem;
+  top: -15rem;
+  transform: rotate(23deg);
+}
+
+.star3 {
+  position: absolute;
+  left: -9rem;
+  top: -26rem;
+}
+
+.star4 {
+  position: absolute;
+  left: 5rem;
+  top: -10rem;
+}
+
+.star5 {
+  position: absolute;
+  left: 2rem;
+  top: -5rem;
+}
+
+.star6 {
+  position: absolute;
+  left: -5rem;
+  top: -20rem;
+}
